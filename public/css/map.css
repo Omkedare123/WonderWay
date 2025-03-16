@@ -1,0 +1,48 @@
+#map {
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+.mapboxgl-popup {
+    max-width: 300px;
+}
+
+.mapboxgl-popup-content {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.mapboxgl-popup-content h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.mapboxgl-popup-content p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.mapboxgl-popup-content p:last-child {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Ensure map controls are visible */
+.mapboxgl-ctrl-group {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.mapboxgl-ctrl-group button {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 5px;
+} 

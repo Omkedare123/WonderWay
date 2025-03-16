@@ -1,0 +1,160 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container{
+    flex: 1;
+} */
+
+
+
+/* Navbar */
+
+.navbar{
+    height: 80px;
+    background-color: white;
+}
+
+.fa-compass{
+    color: #fa424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* .search {
+    width: 60%;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin-left: 7rem;
+} */
+
+/* Footer*/
+.footer {
+    background-color: white;
+    width: 100%;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    position: relative;
+    bottom: 0;
+    border-top: 1px solid #dee2e6;
+}
+.f-info {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.f-info-links, .f-info-socials, .f-info-brand {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i {
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    transition: color 0.2s ease;
+}
+
+.f-info-socials i:hover {
+    color: #fa424d;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+    margin: 0 1rem;
+}
+
+.f-info-links a:hover {
+    color: #fa424d;
+    text-decoration: underline;
+}
+
+.f-info-brand {
+    font-weight: 500;
+    color: #222222;
+}
+
+/* Cards */
+.card {
+    border: none !important;
+}
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0.5rem 0 !important;
+}
+
+.card-text {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none !important;
+    color: #222222 !important;
+}
+
+/* Card Effects */
+.card-img-overlay {
+    opacity: 0;
+    background-color: black;
+    transition: 0.3s ease;
+}
+
+.card:hover .card-img-overlay {
+    opacity: 0.2;
+}
+/* New Page */
+.add-btn{
+    background-color: #fa424d !important;
+    border: none !important;
+}
+
+/* Edit Page */
+.edit-btn{
+    background-color: #fa424d !important;
+    border: none !important;
+    margin-right: 8px;
+}
+
+/* Show Page */
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+/* Map */
+
+#map {
+    height: 400px;
+    width: 600px;
+}
