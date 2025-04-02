@@ -1,10 +1,12 @@
 require('dotenv').config(); 
 
 const Listing = require("../models/listing.js");
+const mapToken = process.env.MAP_TOKEN?.trim(); // Ensure no spaces
+console.log("Final Token Passed to Mapbox:", mapToken); // Debugging
+
 const mbxGeocoding = require('@mapbox/mapbox-sdk/services/geocoding');
-const mapToken = process.env.MAP_TOKEN;
 const geocodingClient = mbxGeocoding({ accessToken: mapToken });
-console.log("Mapbox Token:", mapToken);
+
 
 
 module.exports.index = async (req, res) => {
